@@ -1,0 +1,319 @@
+#login-grid {
+    -fx-background-color: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    -fx-padding: 10px;
+    -fx-hgap: 5px;
+    -fx-vgap: 5px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #0099FF;
+    -fx-border-width: 2px;
+}
+#login-label {
+    -fx-background-color: linear-gradient(to right, #FFB6C1, #E6A8D7);
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: transparent;
+    -fx-pref-width: 165px;
+    -fx-alignment: center;
+}
+#login-error-label {
+    -fx-background-color: linear-gradient(to right, #FF4B2B, #FF416C);
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+#custom-textfield {
+     -fx-background-color: #E1F5FE;
+     -fx-background-radius: 10px;
+     -fx-border-color: grey;
+     -fx-border-width: 1px;
+     -fx-border-radius: 10px;
+     -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 5);
+     -fx-padding: 5px;
+     -fx-font-family: 'Montserrat';
+     -fx-font-size: 16px;
+     -fx-font-weight: normal;
+ }
+ #custom-button {
+     -fx-background-color: linear-gradient(to right, #33CCB3, #0099FF);
+     -fx-text-fill: white;
+     -fx-font-weight: bold;
+     -fx-font-size: 18px;
+     -fx-font-family: 'Montserrat';
+     -fx-padding: 10px 20px;
+     -fx-background-radius: 20px;
+     -fx-border-radius: 20px;
+     -fx-border-color: transparent;
+     -fx-cursor: hand;
+     -fx-opacity: 0.9;
+ }
+ #delete-button {
+    -fx-background-color: linear-gradient(to right, #FF4B2B, #FF416C);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-font-family: 'Montserrat';
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-opacity: 0.9;
+ }
+#button-alkuikkuna {
+    -fx-background-color: linear-gradient(to right, #fbc02d, #f57f17);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-font-family: 'Montserrat';
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-opacity: 0.9;
+}
+#varausTeksti {
+    -fx-font-size: 18px;
+    -fx-padding: 10px;
+    -fx-text-fill: #333333;
+    -fx-background-color: #F0F0F0;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #CCCCCC;
+}
+.checkbox-custom {
+    -fx-font-family: 'Montserrat';
+    -fx-font-size: 16px;
+    -fx-text-fill: #37474F;
+    -fx-padding: 5px;
+}
+
+.checkbox-custom .box {
+    -fx-background-color: white;
+    -fx-border-color: #90A4AE;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 3, 0, 0, 2);
+}
+
+.checkbox-custom:selected .box {
+    -fx-background-color: #4FC3F7;
+    -fx-border-color: #0288D1;
+}
+
+.checkbox-custom:selected .mark {
+    -fx-background-color: white;
+}
+.table-view {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, #aaaaaa, 10, 0, 2, 2);
+}
+.table-view .column-header {
+    -fx-background-color: linear-gradient(to right, #a8e6cf, #d4e9e2);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-border-color: #d0e1e1;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.table-view .column-header:hover {
+    -fx-background-color: linear-gradient(to right, #c1e7db, #b0d7d2);
+}
+
+.table-view .row {
+    -fx-background-color: white;
+    -fx-alignment: center-left;
+}
+
+.table-view .row:nth-child(even) {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-view .row:hover {
+    -fx-background-color: #f2f2f2;
+}
+
+.table-view .cell {
+    -fx-text-fill: #333333;
+    -fx-alignment: center-left;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: center;
+}
+
+.table-view .row:selected {
+    -fx-background-color: #d1e7f2;
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-background-radius: 10px;
+}
+
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.table-view .cell {
+    -fx-alignment: center;
+}
+
+.button-11 {
+    -fx-background-color: white;
+    -fx-text-fill: #3D3D3D;
+    -fx-font-family: "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 6 14 6 14;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 1, 0, 0, 0.5);
+}
+
+.button-11:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(58,108,217,0.5), 3.5, 0, 0, 0);
+}
+
+.textfield-modern {
+    -fx-background-color: #f5f5f5;
+    -fx-text-fill: #333;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 6 10 6 10;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-prompt-text-fill: #999;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.05), 2, 0.0, 0, 1);
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.textfield-modern:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3a6cd9;
+    -fx-border-width: 1.5;
+    -fx-effect: dropshadow(one-pass-box, rgba(58,108,217,0.25), 6, 0.0, 0, 2);
+}
+
+.textfield-modern-editable {
+    -fx-background-color: white;
+    -fx-text-fill: #333;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 6 10 6 10;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-prompt-text-fill: #999;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.05), 2, 0.0, 0, 1);
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.textfield-modern-editable:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3a6cd9;
+    -fx-border-width: 1.25;
+    -fx-effect: dropshadow(one-pass-box, rgba(58,108,217,0.25), 6, 0.0, 0, 2);
+}
+.label-modern {
+    -fx-text-fill: #333;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 500;
+    -fx-background-color: transparent;
+    -fx-padding: 4 10 4 10;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.05), 2, 0.0, 0, 1);
+}
+.label-modern:focused {
+    -fx-text-fill: #3a6cd9;
+    -fx-effect: dropshadow(one-pass-box, rgba(58, 108, 217, 0.25), 6, 0.0, 0, 2);
+}
+.combobox-modern {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 6 10 6 10;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-prompt-text-fill: #999;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.05), 2, 0.0, 0, 1);
+    -fx-arrow-button-color: #999;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.combobox-modern:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3a6cd9;
+    -fx-border-width: 1.25;
+    -fx-effect: dropshadow(one-pass-box, rgba(58,108,217,0.25), 6, 0.0, 0, 2);
+}
+
+.combo-box-popup .list-cell {
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-background-color: #fff;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #e6f0ff;
+}
+.datepicker-modern {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: transparent;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 6 10 6 10;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+    -fx-prompt-text-fill: #999;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.05), 2, 0.0, 0, 1);
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.datepicker-modern:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #3a6cd9;
+    -fx-border-width: 1.25;
+    -fx-effect: dropshadow(one-pass-box, rgba(58,108,217,0.25), 6, 0.0, 0, 2);
+}
+
+.date-picker-popup .calendar-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 6;
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+}
+#custom-background {
+    -fx-background-color: #edf2f7;
+}
