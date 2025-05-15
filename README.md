@@ -28,5 +28,7 @@ Laskuikkuna, jossa voidaan hallinnoida laskujen tietoja:
 Käyttäjäikkuna, jossa voidaan hallinnoida järjestelmän käyttäjien tietoja:
 ![lomaKylän Kayttakaikkuna](https://github.com/ulassi123/Ohjelmistotuotanto/blob/master/kuvat/K%C3%A4ytt%C3%A4j%C3%A4ikkuna.png)
 
-## Miten asentaa lomaKylä-ohjelmisto:
-Luo projekti (IntelliJ:llä tai muulla sovelluksella) ja lisää projektiin kaikki .java-päätteiset luokat. Projekti toimii ohjelmistotuotanto-nimisellä packagella. lomakyla.sql hyödyntää MySQL:ää, joten lataa lomakyla.sql ja aja se MySQL:ssä. Lataa myös kuvat mokki.jpg ja parhainlogoikina.png, ja siirrä ne projektin kohdalle src -> main -> resources-kansioon. Muokkaa DbConnect-luokkaa siten, että muuttujat DB_URL, DB_NAME ja DB_PASSWORD vastaavat MySQL:ssä olevia tietoja. Arvot voisivat olla esim. "jdbc:mysql://localhost:3306/lomakyla", "root" ja "salasana". Ohjelman pitäisi tällöin toimia ja päivittää järjestelmässä tehtyjä muutoksia tauluihin myös MySQL:n puolella.
+## lomaKylä-ohjelmiston asennus ja käyttö:
+Lataa projekti zip-tiedostona ja pura se IdeaProjects-kansion alle. Aja zip-tiedostossa oleva lomakyla.sql omassa MySQL:ssäsi. Muokkaa DbConnect-luokkaa siten, että muuttujat DB_URL, DB_NAME ja DB_PASSWORD vastaavat MySQL:ssä olevia tietoja. Arvot voisivat olla esim. "jdbc:mysql://localhost:3306/lomakyla", "root" ja "salasana". Ohjelma hyödyntää IntelliJ:n corretto-23-versiota, jonka pystyt tarvittaessa vaihtamaan projektin kohdalla File -> Project Structure -> SDK.
+
+Ohjelmassa on valmiiksi admin-käyttäjä, johon pystyy kirjautumaan nimellä "nimi" ja salasanalla "salasana". Tällöin voit muokata SQL:n tauluja ja esimerkiksi luomaan tiedoista laskun pdf-tiedostona. Voit myös tarkastella käyttäjiä käyttäjienhallinnasta. Hallintaan pääset kirjautumalla DB_NAME ja DB_PASSWORD -muuttujien alle kirjoitetuilla tunnuksilla.
