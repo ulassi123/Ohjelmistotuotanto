@@ -35,3 +35,16 @@ Ohjelmasta tulostettu pdf-lasku:
 Lataa projekti zip-tiedostona ja pura se IdeaProjects-kansion alle. Aja zip-tiedostossa oleva lomakyla.sql omassa MySQL:ssäsi. Muokkaa DbConnect-luokkaa siten, että muuttujat DB_URL, DB_NAME ja DB_PASSWORD vastaavat MySQL:ssä olevia tietoja. Arvot voisivat olla esim. "jdbc:mysql://localhost:3306/lomakyla", "root" ja "salasana". Ohjelma hyödyntää IntelliJ:n corretto-23-versiota, jonka pystyt tarvittaessa vaihtamaan projektin kohdalla File -> Project Structure -> SDK.
 
 Ohjelmassa on valmiiksi admin-käyttäjä, johon pystyy kirjautumaan nimellä "nimi" ja salasanalla "salasana". Tällöin voit muokata SQL:n tauluja ja esimerkiksi luomaan tiedoista laskun pdf-tiedostona. Voit myös tarkastella käyttäjiä käyttäjienhallinnasta. Hallintaan pääset kirjautumalla DB_NAME ja DB_PASSWORD -muuttujien alle kirjoitetuilla tunnuksilla.
+
+## riippuvuudet
+-JavaFX
+-MySQL
+-MySQL connector J
+
+## tietokanta
+tietokanta löytyy lomakyla.sql nimisestä tiedostosta. Sieltä löytyy seuraavanlaiset taulut:
+-laskutiedoille
+-asiakkaille
+-mökeille
+-käyttäjille
+-varauksille
