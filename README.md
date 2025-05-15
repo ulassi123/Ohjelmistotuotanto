@@ -36,12 +36,12 @@ Lataa projekti zip-tiedostona ja pura se IdeaProjects-kansion alle. Aja zip-tied
 
 Ohjelmassa on valmiiksi admin-käyttäjä, johon pystyy kirjautumaan nimellä "nimi" ja salasanalla "salasana". Tällöin voit muokata SQL:n tauluja ja esimerkiksi luomaan tiedoista laskun pdf-tiedostona. Voit myös tarkastella käyttäjiä käyttäjienhallinnasta. Hallintaan pääset kirjautumalla DB_NAME ja DB_PASSWORD -muuttujien alle kirjoitetuilla tunnuksilla.
 
-## Riippuvuudet
+## Riippuvuudet:
 -JavaFX
 -MySQL
 -MySQL connector J
 
-## Tietokanta
+## Tietokanta:
 Tietokanta löytyy lomakyla.sql nimisestä tiedostosta. Sieltä löytyy seuraavanlaiset taulut:
 -laskutiedoille
 -asiakkaille
