@@ -40,6 +40,7 @@ Ohjelmassa on valmiiksi admin-käyttäjä, johon pystyy kirjautumaan nimellä "n
 -JavaFX
 -MySQL
 -MySQL connector J
+-Apache PDFBox
 
 ## Tietokanta:
 Tietokanta löytyy lomakyla.sql nimisestä tiedostosta. Sieltä löytyy seuraavanlaiset taulut:
