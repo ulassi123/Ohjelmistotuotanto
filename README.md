@@ -28,6 +28,7 @@ Laskuikkuna, jossa voidaan hallinnoida laskujen tietoja:
 Käyttäjäikkuna, jossa voidaan hallinnoida järjestelmän käyttäjien tietoja:
 ![lomaKylän Kayttakaikkuna](https://github.com/ulassi123/Ohjelmistotuotanto/blob/master/kuvat/K%C3%A4ytt%C3%A4j%C3%A4ikkuna.png)
 
+Ohjelmasta tulostettu pdf-lasku:
 ![lomaKylän laskupdf](https://github.com/ulassi123/Ohjelmistotuotanto/blob/master/kuvat/laskupdf.png)
 
 ## lomaKylä-ohjelmiston asennus ja käyttö:
